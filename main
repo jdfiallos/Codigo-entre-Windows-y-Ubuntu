@@ -1,0 +1,5 @@
+from Al_dia.CSV import CSV
+
+csv = CSV()
+csv.load("datos.csv")
+print csv.transformarArrayHTML()
